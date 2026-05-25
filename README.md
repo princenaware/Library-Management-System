@@ -104,22 +104,7 @@ flowchart TD
 
 ---
 
-## 🔧 Technical Highlights
 
-**Dual Data Structure Pattern:**
-```java
-ArrayList<Book> bookList;  // Ordered iteration
-HashMap<Integer, Book> bookMap;  // O(1) lookup
-```
-
-**Validation Before Operations:**
-```java
-if (bookMap.get(bookId) == null) throw new LibraryException("Not found");
-if (bookMap.get(bookId).isIssued()) throw new LibraryException("Already issued");
-// Perform operation...
-```
-
----
 
 ## 🎮 How to Run
 
